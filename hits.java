@@ -38,13 +38,6 @@ public class hits {
                 L[scanner.nextInt()][scanner.nextInt()] = 1; 
                 //System.out.println(scanner.nextInt());
             }
-            
-            /*for(int i = 0; i < n; i++) {
-             System.out.println();
-             System.out.print(i + ": ");
-             for(int j = 0; j < n; j++)
-               System.out.print(L[i][j] + " ");
-            }*/
 
             h0 = new double[n];
             a0 = new double[n];
