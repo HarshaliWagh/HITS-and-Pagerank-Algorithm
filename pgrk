@@ -114,7 +114,7 @@ public class pgrk{
     void pgrkAlgo() {
         double[] D = new double[n];
         boolean flag = true;
-        // If the graph has N greater than 10, then the values for iterations, initialvalue revert to 0 and -1 respectively.
+        
         if(n > 10) {
             iter = 0;
             for(int i =0; i < n; i++) {
